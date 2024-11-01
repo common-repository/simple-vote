@@ -1,0 +1,157 @@
+.form-table th{
+  padding: 0px; 
+  width: 0px;
+}
+
+.form-table td {
+  padding: 15px 0px !important;
+}
+
+.settings-form {
+  border-top: 0px;
+  border-right: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+  padding:20px;
+}
+
+.sv_views{
+  margin: 12px;
+  width: 30%;
+}
+
+@media (min-width: 980px) and (max-width: 1250px){
+  .sv_views{
+    margin: 12px;
+    width: 45%;
+  }
+}
+@media (min-width: 640px) and (max-width: 979px){
+  .sv_views{
+    margin: 30px;
+    width: 60%;
+  }
+}
+@media (min-width: 0px) and (max-width: 639px){
+  .sv_views{
+    margin: 30px;
+    width: 80%;
+  }
+}
+
+.section_alignment, .alert_font_style {
+  text-align: unset !important;
+}
+.sv_views input{
+  text-align: right;
+}
+
+.section_padding{
+  float:right;
+}
+
+.section_margin{
+  float:right;
+}
+
+.section_bg_color{
+  float:right;
+}
+
+.text_color{
+  float:right;
+}
+
+.alert_font_family, .alert_font_weight{
+  float:right;
+}
+
+.like_bg_color{
+  float:right;
+}
+
+.like_color{
+  float:right;
+}
+
+.dislike_bg_color{
+  float:right;
+}
+
+.dislike_color{
+  float:right;
+}
+
+.like_loader_color{
+  float:right;
+}
+
+.dislike_loader_color{
+  float:right;
+}
+
+.like_loader_border_color{
+  float:right;
+}
+
+.dislike_loader_border_color{
+  float:right;
+}
+
+.success_text_color{
+  float:right;
+}
+
+.error_text_color{
+  float:right;
+}
+
+.sv_radio{
+  float:right;
+}
+
+.sv_accordion {
+  background-color: rgb(211, 211, 211);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-weight: 600;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.sv_accordion.active, .sv_accordion:hover {
+  background-color: #007cba;
+  color:#fff;
+}
+
+.sv_accordion:after {
+  content: '\002B';
+  font-size: large;
+  color: #777;
+  font-weight: 600;
+  float: right;
+  margin-left: 5px;
+}
+
+.sv_accordion.active:after {
+  content: "\2212";
+  color:#fff;
+}
+
+.sv_panel {
+  padding: 0 18px;
+  background-color: white;
+  width: inherit;
+  max-height: 0;
+  overflow: auto;
+  -webkit-transition: max-height 0.2s ease-out;
+  -o-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
